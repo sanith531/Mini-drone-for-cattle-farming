@@ -1,0 +1,68 @@
+Mini Drone for Cattle Farming
+Overview
+The Mini Drone for Cattle Farming project aims to leverage drone technology to assist farmers in monitoring and managing their cattle more efficiently. By providing real-time aerial surveillance and data collection, the drone helps in improving the health and safety of livestock, enhancing farm operations, and enabling data-driven decision making.
+
+Features
+Real-time Monitoring: Observe cattle movement and behavior from an aerial perspective.
+Automated Health Checks: Use integrated sensors to monitor the health and wellness of cattle.
+GPS Tracking: Locate lost or stray cattle with GPS-enabled tracking.
+Data Analysis: Analyze collected data to improve pasture management and resource allocation.
+Technologies Used
+Drone Hardware: Mini drone equipped with necessary sensors and cameras.
+GPS and Sensors: For tracking and health monitoring.
+Machine Learning: Analyze cattle behavior and health data.
+IoT: Real-time data transmission and monitoring.
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/minidrone-cattle-farming.git
+cd minidrone-cattle-farming
+Setup Drone Hardware:
+
+Follow the instructions provided in the hardware_setup.md file for setting up the drone hardware.
+Install Software Dependencies:
+
+bash
+Copy code
+# For backend
+pip install -r requirements.txt
+
+# For frontend
+npm install
+Configure GPS and Sensors:
+
+Refer to gps_sensor_setup.md for configuration details.
+Usage
+Launch the Backend Server:
+
+bash
+Copy code
+python server.py
+Start the Frontend Application:
+
+bash
+Copy code
+npm start
+Connect to the Drone:
+
+Ensure your drone is powered on and connected to the network.
+Begin Monitoring:
+
+Access the web application and start monitoring your cattle in real-time.
+Contributing
+We welcome contributions to improve the Mini Drone for Cattle Farming project. To contribute:
+
+Fork the repository.
+Create a new branch.
+Make your changes and commit them.
+Push to your fork and submit a pull request.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+For any questions or suggestions, please contact:
+
+Sanith Rathnayaka
+Email: sanithkonara12@example.com
